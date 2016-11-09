@@ -1,3 +1,7 @@
+.titulo {
+	font-size: 40px;
+	font-family: cursive;
+}
 .nav:link, .nav:visited {
 	border-radius: 8px;
 	padding: 10px 10px;
@@ -22,6 +26,9 @@ li a:link, li a:visited {
 
 }
 
+.link {
+	text-decoration: none;
+}
 pre {
 	font-family: arial;
 }
@@ -29,7 +36,9 @@ pre {
 .taller {
 	font-weight: bold;
 	text-align: center;
-	font-size: 25px;
+	font-size: 30px;
+	font-family: cursive;
+	font-style: italic;
 }
 
 section  span {
@@ -89,8 +98,9 @@ footer {
 	color: blue;
 }
 
-div {
+p {
 	font-family: cursive;
+	font-size: 18px;
 }
 
 li {
@@ -99,5 +109,7 @@ li {
 h1 {
 	text-align: center;
 }	
-    
-	
+p > span {
+	color: brown;
+}   
+
