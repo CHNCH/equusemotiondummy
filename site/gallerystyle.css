@@ -9,6 +9,7 @@ div.img {
 
 div.img:hover {
     border: 1px solid #777;
+    box-shadow: 5px 8px 10px lightgrey;
 }
 
 div.img img {
