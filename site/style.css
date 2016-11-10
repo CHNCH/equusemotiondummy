@@ -2,6 +2,19 @@
 	font-size: 40px;
 	font-family: cursive;
 }
+
+#equuz, #emotion{
+	font-family: arial;
+	font-size: 80px;
+	text-align: center;
+}
+#equuz {
+	color: #779B02;
+}
+#emotion {
+	color: #225589;
+}
+
 .nav:link, .nav:visited {
 	border-radius: 8px;
 	padding: 10px 10px;
@@ -37,7 +50,7 @@ pre {
 	font-weight: bold;
 	text-align: center;
 	font-size: 30px;
-	font-family: cursive;
+	font-family: "Comic Sans MS";
 	font-style: italic;
 }
 
@@ -47,14 +60,17 @@ section  span {
 li a:hover, li a:active, .link:hover, .link:active {
 	color: green;
 }
-
+.lista {
+	font-family: "Comic Sans MS";
+	font-size: 18px;
+}
 #logo {
 	
 }
 
 body {
-		background-image: url("background1.5.jpeg");
-		background-attachment: fixed;
+		background-image: url("Imagenes/pattern.jpg");
+		background-attachment: repeat;
 }
 
 #slogan {
@@ -62,6 +78,7 @@ body {
 }
 
 footer {
+	padding: 6px;
 	border-radius: 25px;
 	font-family: arial;
 	border: 5px solid #225589;
@@ -99,8 +116,12 @@ footer {
 }
 
 p {
-	font-family: cursive;
+	font-family: "Comic Sans MS";
 	font-size: 18px;
+}
+h2 {
+	font-family: "Comic Sans MS";
+	font-size: 30px;
 }
 
 li {
