@@ -18,6 +18,8 @@
 .nav:link, .nav:visited {
 	border-radius: 8px;
 	padding: 10px 10px;
+	width: 30px;
+	height: 50px;
 	font-family: arial;
 	color: black;
 	margin: 6px;
@@ -46,6 +48,9 @@ pre {
 	font-family: arial;
 }
 
+section {
+	margin: 50px;
+}
 .taller {
 	font-weight: bold;
 	text-align: center;
@@ -65,11 +70,12 @@ li a:hover, li a:active, .link:hover, .link:active {
 	font-size: 18px;
 }
 #logo {
-	
+
 }
 
 body {
-		background-image: url("Imagenes/pattern.jpg");
+		background-image: url("Imagenes/green_dust_scratch.png");
+		/*background: radial-gradient(red, yellow, ); *//* Standard syntax */
 		background-attachment: repeat;
 }
 
@@ -79,13 +85,17 @@ body {
 
 footer {
 	padding: 6px;
+	clear: both;
 	border-radius: 25px;
 	font-family: arial;
 	border: 5px solid #225589;
-	background: linear-gradient(#779B02, lightgreen); /* Standard syntax */
+	background: linear-gradient(to bottom right, #779B02, lightgreen); /* Standard syntax */
 }
 
 #backtotop:link, #backtotop:visited {
+	float: left;
+	clear: both;
+	margin-bottom: 20px;
 	padding: 5px 5px;
 	border-radius: 25px;
 	display: inline-block;
@@ -117,7 +127,7 @@ footer {
 
 p {
 	font-family: "Comic Sans MS";
-	font-size: 18px;
+	font-size: 20px;
 }
 h2 {
 	font-family: "Comic Sans MS";
