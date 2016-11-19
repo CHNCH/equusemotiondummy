@@ -1,6 +1,7 @@
 .titulo {
 	font-size: 40px;
 	font-family: "Comic Sans MS";
+	color: darkgreen;
 }
 
 #equuz, #emotion{
@@ -23,15 +24,15 @@
 	font-family: arial;
 	color: black;
 	margin: 6px;
-	border: 3px solid #225589;
-	background-color: lightgrey;
+	border: 3px solid: #003300;
+	background-color: #663300;
 	text-decoration: none;
 }
 
 .nav:hover, .nav:active {
 	-webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
-	background-color: #779B02;
+	background-color: #003300;
 	border-color: #225589;
 	color: white;
 }
@@ -74,9 +75,11 @@ li a:hover, li a:active, .link:hover, .link:active {
 }
 
 body {
-		background-image: url("Imagenes/green_dust_scratch.png");
+		background-image: url('Imagenes/background11.jpg');
 		/*background: radial-gradient(red, yellow, ); *//* Standard syntax */
-		background-attachment: repeat;
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		background-size: 1400px;
 }
 
 #slogan {
@@ -88,8 +91,8 @@ footer {
 	clear: both;
 	border-radius: 25px;
 	font-family: arial;
-	border: 5px solid #225589;
-	background: linear-gradient(to bottom right, #779B02, lightgreen); /* Standard syntax */
+	border: 5px solid #330000;
+	background: linear-gradient(to bottom right, #003300, #003300); /* Standard syntax */
 }
 
 #backtotop:link, #backtotop:visited {
@@ -100,9 +103,9 @@ footer {
 	border-radius: 25px;
 	display: inline-block;
 	font-family: arial;
-	background-color: lightgrey;
+	background-color: darkolivegreen;
 	color: black;
-	border: 5px solid #225589;
+	border: 5px solid #330000;
 	text-decoration: none;
 }
 
@@ -141,6 +144,6 @@ h1 {
 	text-align: center;
 }	
 p > span {
-	color: brown;
+	color: #4d2800;
 }   
 
