@@ -1,7 +1,16 @@
+* {
+	color: white;
+	text-shadow: 2px 2px black;
+}
+
+.logo {
+	position: relative;
+	left: 40%;
+}
 .titulo {
 	font-size: 40px;
 	font-family: "Script";
-	color: #333300;
+	color: #5c9ba6;
 }
 
 #equuz, #emotion{
@@ -17,16 +26,17 @@
 }
 
 .nav:link, .nav:visited {
-	border-radius: 8px;
-	padding: 10px 10px;
-	width: 30px;
-	height: 50px;
+	padding: 15px 32px;
+	width: 150px;
+	text-align: center;
+	cursor: pointer;
+	display: inline-block;
 	font-family: arial;
-	color: black;
 	margin: 6px;
-	border: 3px solid: #003300;
+	margin-bottom: 10px;
+	/*border: 3px solid #003300;*/
 	background-color: #331a00;
-	text-decoration-color: #996600;
+	text-decoration: none;
 	color: #cc9966;
 }
 
@@ -71,16 +81,12 @@ li a:hover, li a:active, .link:hover, .link:active {
 	font-family: "Comic Sans MS";
 	font-size: 18px;
 }
-#logo {
-
-}
 
 body {
 		background-image: url('Imagenes/background12.jpg');
 		/*background: radial-gradient(red, yellow, ); *//* Standard syntax */
 		background-attachment: fixed;
 		background-repeat: no-repeat;
-		background-size: 1300px;
 }
 
 #slogan {
@@ -89,34 +95,36 @@ body {
 
 footer {
 	padding: 6px;
+	border: 20px;
+	border-color: brown;
 	clear: both;
-	border-radius: 25px;
 	font-family: arial;
-	border: 5px solid #330000;
-	background: linear-gradient(to bottom right, #003300, #003300); /* Standard syntax */
+	background-image: url(Imagenes/footer2.jpg);
+	border: 5px solid #492312;
 }
 
 #backtotop:link, #backtotop:visited {
 	float: left;
+	position: relative;
+	left: 45%;
 	clear: both;
+	border-radius: 8px;
 	margin-bottom: 20px;
-	padding: 5px 5px;
-	border-radius: 25px;
+	text-align: center;
+	padding: 8px 8px;
 	display: inline-block;
 	font-family: arial;
-	background-color: darkolivegreen;
-	color: black;
-	border: 5px solid #330000;
+	background-color: #330000;
+	color: #cc9966;
 	text-decoration: none;
 }
 
 #backtotop:hover, #backtotop:active {
 	-webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
-    box-shadow: 5px 8px 10px grey;
+    box-shadow: 3px 4px 5px black;
 	background-color: #333300;
 	color: white;
-	border-color: #330000;
 }
 
 .facebook:link, .facebook:visited {
@@ -132,6 +140,7 @@ footer {
 p {
 	font-family: "Comic Sans MS";
 	font-size: 20px;
+	/*text-shadow: 2px 2px black;*/
 }
 h2 {
 	font-family: "Comic Sans MS";
@@ -146,6 +155,6 @@ h1 {
 	text-align: center;
 }	
 p > span {
-	color: #4d2800;
+	color: #5b4012;
 }   
 
