@@ -158,3 +158,28 @@ p > span {
 	color: #5b4012;
 }   
 
+/***************MEDIA QUERIES***************/
+
+@media (min-width: 100px) and (max-width: 1199px){
+	.nav:link, .nav:visited {
+		float: top;
+		width: 100%;
+		margin: 0;
+		cursor: pointer;
+		display: inline-block;
+		font-family: arial;
+		display: block;
+		/*border: 3px solid #003300;*/
+		background-color: #331a00;
+		text-decoration: none;
+		color: #cc9966;
+	}
+
+	.nav:hover, .nav:active {
+	z-indexwebkit-transition-duration: 0.4s; /* Safari */
+    	transition-duration: 0.4s;
+		background-color: #003300;
+		border-color: #225589;
+		color: white;
+	}
+}
