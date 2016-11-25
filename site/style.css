@@ -1,12 +1,72 @@
 * {
 	color: white;
-	text-shadow: 2px 2px black;
+}
+ #header-nav {
+ 	background-color: #57bc90;
+ 	border-radius: 0;
+ 	border: 0;
+ }
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+.nav > li > a {
+	padding: 5px;
 }
 
-.logo {
-	position: relative;
-	left: 40%;
+#logo-img {
+	width: 250px;
+	height: 125px;
+	margin-bottom: 10px;
 }
+.collapsable-nav{
+	text-shadow: none;
+}
+#nav-list a:link, #nav-list a:visited {
+	font-size: 17px;
+	color: white;
+	text-shadow: none;
+}
+#nav-list a:hover, #nav-list a:active {
+	background-color: #015249;
+}
+#nav-list {
+	margin-top: 15px;
+	text-align: center;
+}
+#phone {
+	text-align: right;
+}
+#phone a:hover, #phone a:active {
+	background-color: transparent;
+}
+#brand1, #brand2 {
+	font-size: 30px;
+	font-family: arial;
+	font-weight: bold;
+	text-shadow: none;
+	display: inline;
+}
+#brand1 {
+	color: #779B02;
+}
+#brand2{
+	color: #225589;
+}
+#slogan {
+	position: relative;
+	top: 25px;
+	left: 40px;
+	font-size: 15px;
+	font-family: cursive;
+	text-shadow: none;
+	color: white;
+}
+.avbar-toggle collapsed {
+	display: inline;
+	border-radius: 0;
+	border: 0;
+}
+
 .titulo {
 	font-size: 40px;
 	font-family: "Script";
@@ -25,7 +85,7 @@
 	color: #225589;
 }
 
-.nav:link, .nav:visited {
+/*.nav:link, .nav:visited {
 	padding: 15px 32px;
 	width: 150px;
 	text-align: center;
@@ -34,19 +94,19 @@
 	font-family: arial;
 	margin: 6px;
 	margin-bottom: 10px;
-	/*border: 3px solid #003300;*/
+	/*border: 3px solid #003300;*
 	background-color: #331a00;
 	text-decoration: none;
 	color: #cc9966;
 }
 
 .nav:hover, .nav:active {
-	-webkit-transition-duration: 0.4s; /* Safari */
+	-webkit-transition-duration: 0.4s; /* Safari *
     transition-duration: 0.4s;
 	background-color: #003300;
 	border-color: #225589;
 	color: white;
-}
+}*/
 
 li a:link, li a:visited {
 	text-decoration: none;
@@ -83,14 +143,8 @@ li a:hover, li a:active, .link:hover, .link:active {
 }
 
 body {
-		background-image: url('Imagenes/background12.jpg');
-		/*background: radial-gradient(red, yellow, ); *//* Standard syntax */
-		background-attachment: fixed;
-		background-repeat: no-repeat;
-}
-
-#slogan {
-		font-family: "Bradley Hand ITC";
+		background-color: #015249;
+		text-shadow: 2px 2px 2px black;
 }
 
 footer {
@@ -99,11 +153,12 @@ footer {
 	border-color: brown;
 	clear: both;
 	font-family: arial;
-	background-image: url(Imagenes/footer2.jpg);
-	border: 5px solid #492312;
+	/*background-image: url(Imagenes/footer2.jpg);*/
+	background-color: #57bc90;
 }
 
 #backtotop:link, #backtotop:visited {
+	text-shadow: none;
 	float: left;
 	position: relative;
 	left: 45%;
@@ -114,8 +169,8 @@ footer {
 	padding: 8px 8px;
 	display: inline-block;
 	font-family: arial;
-	background-color: #330000;
-	color: #cc9966;
+	background-color: #a5a5af;
+	color: #015249;
 	text-decoration: none;
 }
 
@@ -123,7 +178,7 @@ footer {
 	-webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
     box-shadow: 3px 4px 5px black;
-	background-color: #333300;
+	background-color:  #57bc90;
 	color: white;
 }
 
@@ -134,7 +189,7 @@ footer {
 }
 
 .facebook:hover, .facebook:active {
-	color: blue;
+	background-color: #015249;
 }
 
 p {
@@ -159,8 +214,16 @@ p > span {
 }   
 
 /***************MEDIA QUERIES***************/
+@media (max-width: 768px){
+	#slogan{
+		float: left;
+	}
+	#equuz, #emotion {
+		font-size: 4em;
+	}
+}
 
-@media (min-width: 100px) and (max-width: 1199px){
+/*@media (min-width: 100px) and (max-width: 1199px){
 	.nav:link, .nav:visited {
 		float: top;
 		width: 100%;
@@ -169,17 +232,18 @@ p > span {
 		display: inline-block;
 		font-family: arial;
 		display: block;
-		/*border: 3px solid #003300;*/
+		/*border: 3px solid #003300;*
 		background-color: #331a00;
 		text-decoration: none;
 		color: #cc9966;
 	}
 
 	.nav:hover, .nav:active {
-	z-indexwebkit-transition-duration: 0.4s; /* Safari */
+	z-indexwebkit-transition-duration: 0.4s; /* Safari *
     	transition-duration: 0.4s;
 		background-color: #003300;
 		border-color: #225589;
 		color: white;
 	}
 }
+*/

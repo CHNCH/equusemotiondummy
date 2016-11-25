@@ -3,15 +3,70 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="x-ua-compatible" content="IE=edge">
+	<!--bootstrap and other links-->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<!--bootstrap js and jquery-->
+	<script src="jquery-3.1.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="script.js"></script>
+	
 	<title>Acerca de Nosotros</title>
 	<header>
-		<a id="top" class="nav" href="homepage.html" title="Página Principal">Página&nbsp;Principal</a>&nbsp;<a class="nav" href="servicios.html" title="Servicios">Servicios</a>&nbsp;<a class="nav" href="talleres.html" title="Talleres">Talleres</a>&nbsp;<a class="nav" href="acercade.html" title="Acerca De Nosotros">Acerca&nbsp;De&nbsp;Nosotros</a>&nbsp;<a class="nav" href="galeria.html" title="Galería">Galería</a>
-	</header>
-	<article class="logo">
-	<img src="Imagenes/EquuzEmotionlogo.png" width="275" height="150" alt="Logo de equuz emotion">
-	<h3 id="slogan">"AL GALOPE DEL ÉXITO"</h3>
-	</article>
+		<nav id="header-nav" class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <a href="homepage.html" class="pull-left visible-md visible-lg">
+            <img id="logo-img" src="Imagenes/EquuzEmotionlogo.png">
+          </a>
+
+          <div class="navbar-brand">
+            <a href="homepage.html"><h1 id="brand1">Equuz&nbsp;</h1><h1 id="brand2">E'motion</h1></a>
+          </div>
+          <p id="slogan">
+          	¡AL GALOPE DEL ÉXITO!
+          </p>
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+     	</button>
+        </div>
+
+        <div id="collapsable-nav" class="collapse navbar-collapse">
+           <ul id="nav-list" class="nav navbar-nav navbar-right">
+            <li>
+              <a href="homepage.html">
+                <span class="glyphicon glyphicon-home"></span><br class="hidden-xs">Página principal</a>
+            </li>
+            <li>
+              <a href="servicios.html">
+                <span class="glyphicon glyphicon-briefcase"></span><br class="hidden-xs">Servicios</a>
+            </li>
+            <li>
+              <a href="talleres.html">
+                <span class="glyphicon glyphicon-scissors"></span><br class="hidden-xs">Talleres</a>
+            </li>
+            <li>
+              <a href="acercade.html">
+                <span class="glyphicon glyphicon-info-sign"></span><br class="hidden-xs">Acerca de Nosotros</a>
+            </li>
+            <li>
+              <a href="galeria.html">
+                <span class="glyphicon glyphicon-picture"></span><br class="hidden-xs">Galería</a>
+            </li>
+            <li id="phone" class="hidden-xs">
+              <a href="tel:341 136 8851">
+                <span>341 136 8851</span></a>
+            </li>
+          </ul><!-- #nav-list -->
+        </div><!-- .collapse .navbar-collapse -->
+      </div><!-- .container -->
+    </nav><!-- #header-nav -->
+  </header>
 </head>
 <body>  
 <section>
