@@ -28,9 +28,3 @@ div.desc {
 #triptico{
   width: 298px;
 }
-
-@media (max-width: 768px){
-    .img {
-       
-    }
-}
